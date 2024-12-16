@@ -1,5 +1,6 @@
 # c
 MAIN_COLOR_FONT = (255,255,255)
+SELECTION_COLOR = (255,213, 0)
 
 # m 
 

@@ -1,12 +1,12 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 import pygame
-from code.const import WIN_HEIGHT, WIN_WIDTH
-from code.Menu import Menu
+from code.const import WIN_HEIGHT, WIN_WIDTH 
+from code.Menu import Menu 
 
 def main():
     pygame.init()
-    window = pygame.display.set_mode((WIN_WIDTH,WIN_HEIGHT))  # Ajuste conforme suas constantes
+    window = pygame.display.set_mode((WIN_WIDTH,WIN_HEIGHT))  
     menu = Menu(window)
     menu.run()
 
